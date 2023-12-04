@@ -9,7 +9,6 @@ export const styles = StyleSheet.create({
   headerConatiner: {
     flexDirection: "row",
     marginTop: height / 20,
-    marginBottom: 10,
     alignItems: "center",
     paddingHorizontal: 15,
   },
@@ -38,5 +37,18 @@ export const styles = StyleSheet.create({
     shadowRadius: 1.41,
 
     elevation: 2,
+  },
+  filterListContainer: {
+    // paddingHorizontal: 5,
+    marginBottom: height / 60,
+    justifyContent: "center",
+  },
+  ctgContainer: {
+    paddingVertical: height / 90,
+    paddingHorizontal: width / 30,
+  },
+  ctgText: {
+    fontSize: 16,
+    fontWeight: "600",
   },
 });
