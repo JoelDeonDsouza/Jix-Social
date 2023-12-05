@@ -16,8 +16,8 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   logo: {
-    width: width / 8,
-    height: height / 29,
+    width: width / 10,
+    height: height / 35,
   },
   iconContainerFilter: {
     alignItems: "center",
@@ -39,8 +39,6 @@ export const styles = StyleSheet.create({
     elevation: 2,
   },
   filterListContainer: {
-    // paddingHorizontal: 5,
-    marginBottom: height / 60,
     justifyContent: "center",
   },
   ctgContainer: {
@@ -50,5 +48,28 @@ export const styles = StyleSheet.create({
   ctgText: {
     fontSize: 16,
     fontWeight: "600",
+    marginBottom: 5,
+  },
+  underline: {
+    height: 5,
+    width: "100%",
+    borderRadius: width / 8,
+  },
+  // displayMulti //
+  displayMultiContainer: {
+    flexDirection: "row",
+    paddingHorizontal: 5,
+    marginBottom: height / 10,
+  },
+  displayColumn: {
+    flex: 1,
+  },
+  singleImgContainer: {
+    width: "100%",
+    padding: 4,
+  },
+  imgMulti: {
+    width: "100%",
+    borderRadius: width / 26,
   },
 });

@@ -5,7 +5,9 @@ import { styles } from "./styles";
 // Icons //
 import Icon from "react-native-vector-icons/Ionicons";
 // Dummy data //
-import { ctg } from "../../assets/Data";
+import { ctg, posts } from "../../assets/Data";
+// Components //
+import { DisplayMulti } from "./components";
 
 const HomeScreen = () => {
   const [activeCtg, setActiveCtg] = useState("");
@@ -35,9 +37,8 @@ const HomeScreen = () => {
           data={ctg}
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={{
-            marginTop: 10,
             flex: 1,
-            justifyContent: "center",
+            marginTop: 2,
           }}
           keyExtractor={(item) => item._id}
           renderItem={({ item, index }) => (
@@ -54,15 +55,25 @@ const HomeScreen = () => {
               <Text
                 style={[
                   styles.ctgText,
-                  { color: item._id === activeCtg ? "#022C43" : "#DFDFDE" },
+                  { color: item._id === activeCtg ? "#022C43" : "#B6BBC4" },
                 ]}
               >
                 {item.name}
               </Text>
+              <View
+                style={[
+                  styles.underline,
+                  {
+                    backgroundColor:
+                      item._id === activeCtg ? "#2f7bb9" : "transparent",
+                  },
+                ]}
+              />
             </TouchableOpacity>
           )}
         />
       </View>
+      <DisplayMulti posts={posts} />
     </View>
   );
 };
