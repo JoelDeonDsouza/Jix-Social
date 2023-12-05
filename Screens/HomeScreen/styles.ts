@@ -39,8 +39,6 @@ export const styles = StyleSheet.create({
     elevation: 2,
   },
   filterListContainer: {
-    // paddingHorizontal: 5,
-    marginBottom: height / 60,
     justifyContent: "center",
   },
   ctgContainer: {
@@ -50,5 +48,21 @@ export const styles = StyleSheet.create({
   ctgText: {
     fontSize: 16,
     fontWeight: "600",
+  },
+  // displayMulti //
+  displayMultiContainer: {
+    flexDirection: "row",
+    padding: 10,
+  },
+  displayColumn: {
+    flex: 1,
+  },
+  singleImgContainer: {
+    width: "100%",
+    padding: 4,
+  },
+  imgMulti: {
+    width: "100%",
+    borderRadius: width / 26,
   },
 });
