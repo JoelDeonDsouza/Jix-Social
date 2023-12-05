@@ -3,7 +3,7 @@ import { View, Image } from "react-native";
 import { styles } from "../styles";
 // Type rendered //
 interface MultiImgProps {
-    item: {
+  item: {
     img: string;
   };
 }

@@ -14,11 +14,6 @@ export const ctg = [
     name: "Shorts",
     __v: 0,
   },
-  {
-    _id: "004",
-    name: "Tweets",
-    __v: 0,
-  },
 ];
 
 export const posts = [
