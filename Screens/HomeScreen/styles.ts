@@ -88,9 +88,9 @@ export const styles = StyleSheet.create({
     position: "absolute",
     blurType: "light",
     bottom: 0,
-    right: 0,
+    left: 0,
     marginBottom: 12,
-    marginRight: 20,
+    marginLeft: 20,
     padding: 5,
     flexDirection: "row",
     justifyContent: "space-evenly",
@@ -100,5 +100,19 @@ export const styles = StyleSheet.create({
   },
   iconContainer: {
     paddingHorizontal: 12,
+  },
+  // Video Player //
+  videoContainer: {
+    paddingHorizontal: 12,
+    width: "100%",
+  },
+  videoMainContainer: {
+    marginBottom: 20,
+  },
+  video: {
+    width: "100%",
+    height: 500,
+    objectFit: "cover",
+    borderRadius: width / 18,
   },
 });

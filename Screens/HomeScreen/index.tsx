@@ -5,9 +5,9 @@ import { styles } from "./styles";
 // Icons //
 import Icon from "react-native-vector-icons/Ionicons";
 // Dummy data //
-import { ctg, posts } from "../../assets/Data";
+import { ctg, posts, shorts } from "../../assets/Data";
 // Components //
-import { DisplayMulti, ImgList } from "./components";
+import { DisplayMulti, ImgList, ShortsPlayer } from "./components";
 
 const HomeScreen = () => {
   const [activeCtg, setActiveCtg] = useState("");
@@ -75,6 +75,7 @@ const HomeScreen = () => {
       </View>
       {activeCtg === "001" && <DisplayMulti posts={posts} />}
       {activeCtg === "002" && <ImgList posts={posts} />}
+      {activeCtg === "003" && <ShortsPlayer shorts={shorts} />}
     </View>
   );
 };

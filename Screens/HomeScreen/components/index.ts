@@ -1,3 +1,5 @@
 import DisplayMulti from "./DisplayMulti";
 import ImgList from "./ImgList";
-export { DisplayMulti, ImgList };
+import ShortsPlayer from "./ShortsPlayer";
+
+export { DisplayMulti, ImgList, ShortsPlayer };

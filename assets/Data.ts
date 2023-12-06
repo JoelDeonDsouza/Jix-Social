@@ -48,3 +48,26 @@ export const posts = [
     img: "https://images.unsplash.com/photo-1588258219511-64eb629cb833?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
+
+export const shorts = [
+  {
+    _id: "01",
+    ctg: "003",
+    mp4: "https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4",
+  },
+  {
+    _id: "02",
+    ctg: "003",
+    mp4: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+  },
+  {
+    _id: "03",
+    ctg: "003",
+    mp4: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+  },
+  {
+    _id: "04",
+    ctg: "003",
+    mp4: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+  },
+];
