@@ -1,3 +1,3 @@
 import DisplayMulti from "./DisplayMulti";
-
-export { DisplayMulti };
+import ImgList from "./ImgList";
+export { DisplayMulti, ImgList };
