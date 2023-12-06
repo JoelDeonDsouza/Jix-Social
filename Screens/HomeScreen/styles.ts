@@ -72,4 +72,33 @@ export const styles = StyleSheet.create({
     width: "100%",
     borderRadius: width / 26,
   },
+  // Photos display //
+  imgContainer: {
+    paddingHorizontal: 12,
+    width: "100%",
+    marginBottom: height / 30,
+  },
+  imgCtg: {
+    width: "100%",
+    height: 500,
+    objectFit: "cover",
+    borderRadius: width / 18,
+  },
+  floatingTextContainer: {
+    position: "absolute",
+    blurType: "light",
+    bottom: 0,
+    right: 0,
+    marginBottom: 12,
+    marginRight: 20,
+    padding: 5,
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignContent: "center",
+    overflow: "hidden",
+    borderRadius: width,
+  },
+  iconContainer: {
+    paddingHorizontal: 12,
+  },
 });

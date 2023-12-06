@@ -7,7 +7,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 // Dummy data //
 import { ctg, posts } from "../../assets/Data";
 // Components //
-import { DisplayMulti } from "./components";
+import { DisplayMulti, ImgList } from "./components";
 
 const HomeScreen = () => {
   const [activeCtg, setActiveCtg] = useState("");
@@ -73,7 +73,8 @@ const HomeScreen = () => {
           )}
         />
       </View>
-      <DisplayMulti posts={posts} />
+      {activeCtg === "001" && <DisplayMulti posts={posts} />}
+      {activeCtg === "002" && <ImgList posts={posts} />}
     </View>
   );
 };
