@@ -15,9 +15,9 @@ This Expo React Native app is a versatile media display application that combine
 | :-----------------------------------------------------------------------------------------------: | :-----------------------------------------: |
 | ![Home](https://i.ibb.co/P6GCTxN/Simulator-Screenshot-i-Phone-15-Plus-2023-12-07-at-11-44-32.png) | ![Home2](https://i.ibb.co/pPsRkj9/img2.png) |
 
-Example View 3 |  
-:-------------------------:
-![Home](https://i.ibb.co/ZmqQZP0/img1.png)
+|               Example View 3                |               Example View 4                |
+| :-----------------------------------------: | :-----------------------------------------: |
+| ![Home3](https://i.ibb.co/ZmqQZP0/img1.png) | ![Home4](https://i.ibb.co/mqXfjWD/img4.png) |
 
 ## Features
 
